@@ -22,4 +22,4 @@ urllib.request.urlretrieve(url, 'DataOSM.osm')
        
 end = time.time()
 print("Download OSM data took " + str(end-start) + " seconds")
-print("Data size is about " + str(os.path.getsize(os.getcwd() + "/DataOSM.osm")/1000000) + " mb")
+print("Data size is about " + str(os.path.getsize(os.path.join(os.getcwd(), "DataOSM.osm"))/1000000) + " mb")
