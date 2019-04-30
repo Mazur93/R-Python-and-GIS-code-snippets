@@ -1,5 +1,5 @@
 # author: Bartosz Mazurkiewicz
-# Downloading OSM data via the overpass API with python3. Pay attention to not generate that much traffic.
+# Downloading OSM data via the overpass API with python3. Pay attention to not generate too much traffic.
 # The servers are for everyone and the resources are limited. See the usage policy at http://wiki.openstreetmap.org/wiki/Overpass_API
 
 import time
